@@ -1,14 +1,17 @@
+import Home from './Home.view'
+import More from './More.view'
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { render } from 'react-dom'
 
-const Home = () => (
-  <div>Home</div>
-)
-
 render(
   <Router>
-    <Route path='/' component={Home} />
+    <div style={{
+      flexDirection: 'row',
+    }}>
+      <Route path='/' component={Home} />
+      <Route path='/more' component={More} />
+    </div>
   </Router>,
   document.getElementById('root')
 )

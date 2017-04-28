@@ -22,6 +22,7 @@
     "style-to-css": "^1.0.3"
   },
   "scripts": {
+    "deploy": "surge public viewsdx.com",
     "prestart": "browserify vendor.js > public/vendor.js",
     "start": "trap 'kill %1' SIGINT && rollup --watch --config rollup.config.js & static public --port 3000 --cache 0 -H '{\"Cache-Control\": \"no-cache, must-revalidate\"}'"
   }
