@@ -1,10 +1,68 @@
 Vertical
-width 360
+backgroundColor #FAFAFA
+width 100%
+height 100%
+overflowY scroll
+paddingTop 50
+paddingBottom 50
+paddingLeft 50
+paddingRight 100
+alignItems flex-end
+
+Logo is Image
+source https://files.usepages.today/DeltaLogoNoShadows.svg
+width 5%
+
 Text
-fontSize 120
-margin 100
-text 👻
-# Button is Vertical
-# teleportTo more
-# Text
-# text go to more
+marginTop 30
+text Write simple interface code 
+color #414042
+fontFamily Montserrat, sans-serif
+fontWeight 700
+fontSize 42
+
+Text
+text Keep control. Stay creative
+color #414042
+fontFamily Montserrat, sans-serif
+fontWeight 700
+fontSize 42
+
+Text
+text Own what you do
+color #414042
+fontFamily Montserrat, sans-serif
+fontWeight 700
+fontSize 42
+
+Text
+marginTop 30
+text Design as you build!
+color #F7941E
+fontFamily Montserrat, sans-serif
+fontWeight 700
+fontSize 42
+
+LearnMore is Vertical
+borderRadius 50
+borderRadiusHover 5
+marginTop 40
+paddingTop 15
+paddingBottom 15
+paddingLeft 30
+paddingRight 30
+backgroundColor #F7EBDC
+goTo https://files.usepages.today/DeltaLogoNoShadows.svg
+Text
+text Learn More
+color #F7941E
+fontFamily Montserrat, sans-serif
+fontWeight 300
+fontSize 16
+
+
+
+
+
+
+
