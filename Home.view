@@ -5,7 +5,7 @@ height 100%
 overflowY scroll
 paddingTop 50
 paddingBottom 50
-paddingLeft 50
+paddingLeft 100
 paddingRight 100
 alignItems flex-end
 
@@ -52,14 +52,13 @@ paddingBottom 15
 paddingLeft 30
 paddingRight 30
 backgroundColor #F7EBDC
-goTo https://files.usepages.today/DeltaLogoNoShadows.svg
+goTo https://learn.viewsdx.com/stay-tuned-c252f40ad3a3
 Text
 text Learn More
 color #F7941E
 fontFamily Montserrat, sans-serif
 fontWeight 300
 fontSize 16
-
 
 
 
