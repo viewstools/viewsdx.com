@@ -1,61 +1,139 @@
 Vertical
-backgroundColor #FAFAFA
+backgroundColor #f3f7fa
 width 100%
 height 100%
-overflowY scroll
+alignItems center
+paddingLeft 80
+paddingRight 80
 paddingTop 80
-paddingBottom 50
-paddingLeft 100
-paddingRight 100
-alignItems flex-end
+
+Vertical
+backgroundColor white
+borderRadius 20
+alignItems center
+width 100%
+boxShadow 0px 10px 100px rgba(0,158,255, 0.2)
+paddingTop 60
+paddingBottom 40
+paddingLeft 140
+paddingRight 140
+StartButton is Vertical
+borderRadius 10
+border 1px solid #14de6c
+paddingTop 15
+paddingBottom 15
+paddingLeft 60
+paddingRight 60
+marginBottom 45
+backgroundColor white
+onClick props.start
+Text
+text Start
+color #14de6c
+fontFamily Montserrat, sans-serif
+fontWeight 300
+fontSize 12
+
+
+PreviewButton is Horizontal
+borderRadius 10
+border 1px solid #f1f2f2
+paddingTop 15
+paddingBottom 15
+backgroundColor white
+onClick props.preview
+width 100%
+alignItems center
+alignContent center
+justifyContent center
+marginTop 10
+Text
+alignSelf center
+text Preview in the browser
+color #259bf5
+fontFamily Montserrat, sans-serif
+fontWeight 300
+fontSize 12
+Image
+source https://files.usepages.today/arrowLeft.svg
+width 20
+position absolute
+right 10
+
+
+EditorButton is Horizontal
+borderRadius 10
+border 1px solid #f1f2f2
+paddingTop 15
+paddingBottom 15
+backgroundColor white
+onClick props.editor
+width 100%
+alignItems center
+alignContent center
+justifyContent center
+marginTop 10
+Text
+alignSelf center
+text Open in code editor
+color #259bf5
+fontFamily Montserrat, sans-serif
+fontWeight 300
+fontSize 12
+Image
+source https://files.usepages.today/arrowLeft.svg
+width 20
+position absolute
+right 10
+
+
+FinderButton is Horizontal
+borderRadius 10
+border 1px solid #f1f2f2
+paddingTop 15
+paddingBottom 15
+backgroundColor white
+onClick props.finder
+width 100%
+alignItems center
+alignContent center
+justifyContent center
+marginTop 10
+Text
+alignSelf center
+text Open in Finder
+color #259bf5
+fontFamily Montserrat, sans-serif
+fontWeight 300
+fontSize 12
+Image
+source https://files.usepages.today/arrowLeft.svg
+width 20
+position absolute
+right 10
+
 
 Logo is Image
-source https://files.usepages.today/DeltaLogoNoShadows.svg
+source https://files.usepages.today/DeltaLogoNoShadowsBlue.svg
 width 50
+marginTop 40
 
-Text
-marginTop 50
-text Write simple interface code 
-color #414042
-fontFamily Montserrat, sans-serif
-fontWeight 700
-fontSize 42
 
-Text
-text Keep control. Stay creative
-color #414042
-fontFamily Montserrat, sans-serif
-fontWeight 700
-fontSize 42
-
-Text
-text Own what you do
-color #414042
-fontFamily Montserrat, sans-serif
-fontWeight 700
-fontSize 42
-
-Text
-marginTop 30
-text Design as you build!
-color #F7941E
-fontFamily Montserrat, sans-serif
-fontWeight 700
-fontSize 42
-
-LearnMore is Vertical
-borderRadius 50
-borderRadiusHover 5
-marginTop 70
+Vertical
+justifyContent center
+flex 1
+StartButton is Vertical
+borderRadius 10
 paddingTop 15
 paddingBottom 15
 paddingLeft 30
 paddingRight 30
-backgroundColor #F7EBDC
-goTo https://learn.viewsdx.com/stay-tuned-c252f40ad3a3
+backgroundColor f3f7fa
+onClick props.uninstall
+boxShadow 0px 4px 10px rgba(0,158,255, 0.1)
 Text
-text Learn More
-color #F7941E
+text Uninstall Views
+color rgba(37,155,245,0.5)
 fontFamily Montserrat, sans-serif
 fontWeight 300
-fontSize 16
+fontSize 12
